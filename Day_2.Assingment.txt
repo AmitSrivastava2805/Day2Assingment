@@ -1,0 +1,9 @@
+display_string=input('''choose an alphabet from 
+                          "hello coder" 
+                                       to win exciting prizes :-''')
+string1 = 'hello coders'
+l=['h','e','o','c','d']
+if(display_string in l):
+  print('you get a prize')
+else:
+  print('you are not going to get prize sorry')
